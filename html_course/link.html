@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link tags</title>
+  </head>
+  <body>
+    <h1>Links in HTML</h1>
+
+    <!-- Absolute File Path-->
+    <a href="https://www.google.com/" target="_blank" rel="nofollow" title="Go to Google">Google</a>
+
+    <!-- Relative File Path-->
+
+    <!--file is located in the same folder as the current page-->
+    <a href="heading.html">Heading</a>
+
+    <!--file is located in the html_templates folder in the current folder-->
+    <a href="/html_examples/heading_example.html">Heading Example</a>
+
+    <!--file is located in the html_templates folder at the root of the current web-->
+    <a href="./">Root Folder</a>
+
+    <!--file is located in the folder one level up from the current folder-->
+    <a href="../README.md">Readme HTML</a>
+
+    <!--
+        <a> = defines a hyperlink, which is used to link from one page to another.
+        href = specifies the URL of the page the link goes to.
+        rel = specifies the relationship between the current document and the linked document.
+        ./ = root folder or index.html
+        ../ = go back one folder.
+        target="_blank" = Opens the document in a new window or tab.
+        target="_self" = Default. Opens the document in the same window/tab as it was clicked.
+        title = specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.
+        <img> = Use the img element inside <a> to use an image as a link.
+        mailto = Use mailto inside the href attribute to create a link that opens the user's email program (to let them send a new email).
+        
+        Tip:The main file of a folder will always be index.html, in case there is no such file you will see all the files.
+    -->
+  </body>
+</html>
