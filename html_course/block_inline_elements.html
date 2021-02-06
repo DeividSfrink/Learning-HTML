@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th{
+            background-color: darkcyan;
+            color: white;
+        }  
+
+        td{
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td:first-child{
+            width: 7%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        td:last-child{
+            width: 25%;
+            text-align: center;    
+        }
+        tr{
+            height: 40px;
+            background-color: snow;
+        }
+
+        tr:hover {
+            background-color: rgb(240, 240, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Block and Inline Elements</h1>
+    <p>Every HTML element has a default display value, depending on what type of element it is.</p>
+    <p>There are two display values: <b>block</b> and <b>inline</b>.</p>
+
+    <h2>Block-level Elements</h2>
+    <p>A block-level element always starts on a new line.</p>
+    <p>A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</p>
+    <p>A block level element has a top and a bottom margin, whereas an inline element does not.</p>
+    <table>
+        <tr>
+          <th>ELEMENT</th>
+          <th>DESCRIPTION</th>
+          <th>GO TO</th>
+        </tr>
+        <tr>
+          <td>address</td>
+          <td>The address tag defines the contact information for the author/owner of a document or an article.</td>
+          <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>article</td>
+            <td>The article tag specifies independent, self-contained content.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>aside</td>
+            <td>The aside tag defines some content aside from the content it is placed in.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>blockquote</td>
+            <td>The blockquote tag specifies a section that is quoted from another source.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>canvas</td>
+            <td>The canvas tag is used to draw graphics, on the fly, via scripting (usually JavaScript).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>dd</td>
+            <td>The dd tag is used to describe a term/name in a description list.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>dl</td>
+            <td>The dl tag defines a description list</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>dt</td>
+            <td>The dt tag defines a term/name in a description list.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>div</td>
+            <td>The div tag defines a division or a section in an HTML document.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>fieldset</td>
+            <td>The fieldset tag is used to group related elements in a form.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>figcaption</td>
+            <td>The figcaption tag defines a caption for a figure element.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>figure</td>
+            <td>The figure tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>footer</td>
+            <td>The footer tag defines a footer for a document or section.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>form</td>
+            <td>The form tag is used to create an HTML form for user input.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>h1-h6</td>
+            <td>The h1 to h6 tags are used to define HTML headings.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>header</td>
+            <td>The header element represents a container for introductory content or a set of navigational links.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>hr</td>
+            <td>The hr tag defines a thematic break in an HTML page (e.g. a shift of topic).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>li</td>
+            <td>The li tag defines a list item.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>main</td>
+            <td>The main tag specifies the main content of a document.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>nav</td>
+            <td>The nav tag defines a set of navigation links.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>noscript</td>
+            <td>The noscript tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>The ol tag defines an ordered list. An ordered list can be numerical or alphabetical.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>The p tag defines a paragraph.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>pre</td>
+            <td>The pre tag defines preformatted text.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>section</td>
+            <td>The section tag defines a section in a document.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>The table tag defines an HTML table.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+          
+        <tr>
+            <td>tfoot</td>
+            <td>The tfoot tag is used to group footer content in an HTML table.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td>The ul tag defines an unordered (bulleted) list.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>video</td>
+            <td>The video tag is used to embed video content in a document, such as a movie clip or other video streams.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+    </table>
+      
+    <h2>Inline Elements</h2>
+    <p>An inline element does not start on a new line.</p>
+    <p>An inline element only takes up as much width as necessary.</p>
+    <table>
+        <tr>
+          <th>Element</th>
+          <th>Description</th>
+          <th>Go to</th>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>The a tag defines a hyperlink, which is used to link from one page to another.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>abbr</td>
+            <td>The abbr tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>acronym</td>
+            <td>The acronym tag was used in HTML 4 to define an acronym.</td>
+            <td>Not Supported in HTML5.</td>
+        </tr>
+        <tr>
+            <td>b</td>
+            <td>The b tag specifies bold text without any extra importance.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>bdo</td>
+            <td>BDO stands for Bi-Directional Override.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>big</td>
+            <td>The big tag was used in HTML 4 to define bigger text.</td>
+            <td>Not Supported in HTML5.</td>
+        </tr>
+        <tr>
+            <td>br</td>
+            <td>The br tag inserts a single line break.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>button</td>
+            <td>The button tag defines a clickable button.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>cite</td>
+            <td>The cite tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>code</td>
+            <td>The code tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>dfn</td>
+            <td>The dfn tag stands for the "definition element", and it specifies a term that is going to be defined within the content.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>em</td>
+            <td>The em tag is used to define emphasized text. The content inside is typically displayed in italic.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>The i tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>The img tag is used to embed an image in an HTML page.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>input</td>
+            <td>The input tag specifies an input field where the user can enter data.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>kbd</td>
+            <td>The kbd tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>label</td>
+            <td>The label tag defines a label for several elements.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>map</td>
+            <td>The map tag is used to define an image map. An image map is an image with clickable areas.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>object</td>
+            <td>The object tag defines a container for an external resource.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>output</td>
+            <td>The output tag is used to represent the result of a calculation (like one performed by a script).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>q</td>
+            <td>The q tag defines a short quotation.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>samp</td>
+            <td>The samp tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>script</td>
+            <td>The script tag is used to embed a client-side script (JavaScript).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>select</td>
+            <td>The select element is used to create a drop-down list.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>small</td>
+            <td>The small tag defines smaller text (like copyright and other side-comments).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>span</td>
+            <td>The span tag is an inline container used to mark up a part of a text, or a part of a document.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>strong</td>
+            <td>The strong tag is used to define text with strong importance. The content inside is typically displayed in bold.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>sub</td>
+            <td>The sub tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>sup</td>
+            <td>The sup tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>textarea</td>
+            <td>The textarea tag defines a multi-line text input control.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>time</td>
+            <td>The time tag defines a specific time (or datetime).</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+        <tr>
+            <td>tt</td>
+            <td>The tt tag was used in HTML 4 to define teletype text.</td>
+            <td>Not Supported in HTML5.</td>
+        </tr>
+        <tr>
+            <td>var</td>
+            <td>The var tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.</td>
+            <td><a href="#">Example</a></td>
+        </tr>
+    </table>
+</body>
+</html>
